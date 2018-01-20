@@ -5,29 +5,7 @@ const REMOVE_COMMENT = "REMOVE_COMMENT";
 const EDIT_COMMENT = "EDIT_COMMENT";
 const THUMB_UP_COMMENT = "THUMB_UP_COMMENT";
 const THUMB_DOWN_COMMENT = "THUMB_DOWN_COMMENT";
-
-
-//action type
-{
-  type: ADD_COMMENT,
-  text: "My first comment",
-  id: uuid.vr()
-}
-
-{
-  type: REMOVE_COMMENT,
-  id: id
-}
-
-{
-  type: THUMB_DOWN_COMMENT,
-  id: id
-}
-
-{
-  type: THUMB_UP_COMMENT,
-  id: id
-}
+const ADD_COMMENT = "ADD_COMMENT";
 
 //action creator
 
